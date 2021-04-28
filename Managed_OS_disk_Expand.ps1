@@ -2,9 +2,9 @@
 Select-AzSubscription -SubscriptionName 'Free Trial'
 #Select the RG, VM, Location, Snapshot details
 $rgName = 'Test-RG'
-$vmName = 'vmtest200'
+$vmName = 'vmtest300'
 $location = 'eastus' 
-$snapshotName = 'vmtest200_OsDisk_snap3' 
+$snapshotName = 'vmtest300_OsDisk_snap1' 
 # Get the VM 
 $vm = Get-AzVM -ResourceGroupName $rgName -Name $vmName
 # Make sure the VM is stopped\deallocated
